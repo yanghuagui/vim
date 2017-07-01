@@ -126,7 +126,8 @@ set nocompatible                                      "禁用 Vi 兼容模式
 filetype off                                          "禁用文件类型侦测
 
 if g:islinux
-    set rtp+=~/.vim/bundle/vundle/
+"    set rtp+=~/.vim/bundle/vundle/
+    set rtp+=~/.vim/bundle/Vundle.vim/
     call vundle#rc()
 else
     set rtp+=$VIM/vimfiles/bundle/vundle/
